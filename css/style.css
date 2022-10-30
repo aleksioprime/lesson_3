@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Open Sans, sans-serif;
 	background-color: #a1a1a1;
-    background-image: url('/img/horror.jpg');
+    background-image: url('img/horror.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
