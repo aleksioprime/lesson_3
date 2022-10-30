@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+	background-color: #a1a1a1;
+    background-image: url('/img/horror.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    background-color: #000000;
+}
+
+.menu {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu > ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: block;
+	color: #E0E0E0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 90px;
+	padding: 30px 10px;
+    text-align: center;
+}
+
+.menu a:hover {
+	background-color: #FF3F40;
+}
+
+.intro-back {
+    margin-top: 20px;
+    background-color: rgba(246, 242, 242, 0.9);
+}
+
+.intro {
+    padding: 30px 0 30px;
+    width: 900px;
+	margin: 0 auto;
+}
+
+.intro-left {
+    display: inline-block;
+	width: 65%;
+	vertical-align: top;
+	margin-right: 40px;
+	color: #000000;
+}
+
+.intro-left h1 {
+	font-size: 40px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	margin: 0;
+}
+
+.intro-left p {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.intro-left a {
+	display: inline-block;
+	background-color: #FF2D2D;
+	padding: 15px 50px;
+	margin-top: 25px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;	
+}
+
+.intro-left a:hover {
+	background-color: #8b1c1c;	
+}
+
+.intro-image {
+    display: inline-block;
+	vertical-align: top;
+    overflow: hidden; 
+    width: 30%;
+    box-shadow: 5px 5px;
+  }
+
+.intro-image img {
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+}
+
+.intro-image img:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    width: 900px;
+    padding: 10px 10px;
+	margin: 20px auto;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    background-color: rgba(83, 61, 61, 0.9);
+    line-height: 25px;
+}
+
+.content-img-1 {
+    float: right;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.content-img-2 {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    padding: 30px 10px;
+    width: 900px;
+	margin: 0 auto;
+}
